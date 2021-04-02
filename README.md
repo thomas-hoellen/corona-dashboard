@@ -13,6 +13,6 @@ Click on the http adress or copy it into to you web browser to get the WebApp.
 
 ## Necessary python packages
 
-*flask
-*plotly
-*pandas
+* flask
+* plotly
+* pandas
