@@ -22,7 +22,7 @@ For full detail you can checkout the heroku-deplyment branch and see the require
 
 ## Files in this repository
 
- * COVID-Analysis.ipynb: Notebook that gives short look over data
+ * [COVID-Analysis.ipynb](./COVID-Analysis.ipynb): Notebook that gives short look over data
  * [web_app/](./web_app)
    * [corona_dashboard.py](./web_app/corona_dashboard.py): Main file that starts the WebApp
    * [wrangling_scripts/](./web_app/wrangling_scripts)
