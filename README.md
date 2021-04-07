@@ -8,12 +8,17 @@ The data is taken from the European Centre for Disease Prevention and Control. U
 You can also get a first impression of the data without using the WebApp. Clone the repository or just download the data folder and COVID-Analysis.ipynb. This jupyter notebook gives you a first overview over the data with some simple visualizations. If you don't know how to use jupyter notebook check out their website [here](https://jupyter.org/).
 
 ## How to use the WebApp manually
-Clone the repo on the main branch, open the terminal and go to the corona-dashboard folder and type `python corona_dashboard.py`. This will show several lines in the terminal. 
+If you don't just want to look at the WebApp but also want to know it is programmed you need to clone the repo on the main branch. 
+To deploy the App manually open the terminal and go to the web_app folder and type `python corona_dashboard.py`. This will show several lines in the terminal. 
 One of these lines will say something like: *Running on http://0.0.0.0:3001/ (Press CTRL+C to quit)*.
 Click on the http adress or copy it into to you web browser to get the WebApp.
 
 ## Necessary python packages
 
-* flask
-* plotly
-* pandas
+Please see the requirements.txt for all installed packages along with the used versions.
+
+## Files in this repository
+
+* COVID-Analysis.ipynb: Simple notebook to get an overview over the data
+* web_app/
+  * corona_dashboard.py: Main file that starts the web app
