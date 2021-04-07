@@ -22,33 +22,11 @@ For full detail you can checkout the heroku-deplyment branch and see the require
 
 ## Files in this repository
 
-* 
-* web_app/
-  * 
-  *pts/
-
-
-```
-corona-dashboard
-│   README.md
-│   COVID-Analysis.ipynb: Simple notebook to get an overview over the data  
-│
-└───web_app
-│   │   corona_dashboard.py: Main file that starts the web app
-│   │
-│   └─── wrangling_scripts
-│       │   wrangle_data.py: Loading, wrangling, and plotting of the data
-└    ───data
-|       |   contains all data sets that are used
-|    
-```
- * [tree-md](./tree-md)
- * [dir2](./web_app)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
+ * COVID-Analysis.ipynb: Notebook that gives short look over data
+ * [web_app](./web_app)
+   * [corona_dashboard.py](./web_app/corona_dashboard.py): Main file that starts the WebApp
+   * [wrangling_scripts](./web_app/wrangling_scripts)
+     * [wrangle_data.py](./web_app/wrangling_scripts/wrangle_data.py)
    * [file12.ext](./dir1/file12.ext)
  * [file_in_root.ext](./file_in_root.ext)
  * [README.md](./README.md)
