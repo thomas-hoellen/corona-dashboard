@@ -23,11 +23,14 @@ For full detail you can checkout the heroku-deplyment branch and see the require
 ## Files in this repository
 
  * COVID-Analysis.ipynb: Notebook that gives short look over data
- * [web_app](./web_app)
+ * [web_app/](./web_app)
    * [corona_dashboard.py](./web_app/corona_dashboard.py): Main file that starts the WebApp
-   * [wrangling_scripts](./web_app/wrangling_scripts)
-     * [wrangle_data.py](./web_app/wrangling_scripts/wrangle_data.py)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
+   * [wrangling_scripts/](./web_app/wrangling_scripts)
+     * [wrangle_data.py](./web_app/wrangling_scripts/wrangle_data.py): Loading, wrangling and plotting of data
+   * [data/](./web_app/wrangling_scripts): All data sets that were used are here
+   * [corona_dashboard/](./web_app/corona_dashboard)
+     * [routes.py](./web_app/corona_dashboard/routes.py): Main file in the backend of WebApp
+     * [__init__.py](./web_app/corona_dashboard/__init__.py): Init file needed for the App
+     * [templates/](./web_app/corona_dashboard/templates): Contains index.html that defines front end of the App
+     * [static/](./web_app/corona_dashboard/static): Contains images used in the WebApp
+
