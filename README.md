@@ -14,11 +14,35 @@ One of these lines will say something like: *Running on http://0.0.0.0:3001/ (Pr
 Click on the http adress or copy it into to you web browser to get the WebApp.
 
 ## Necessary python packages
+* pandas
+* plotly
+* flask
 
-Please see the requirements.txt for all installed packages along with the used versions.
+For full detail you can checkout the heroku-deplyment branch and see the requirements.txt for all installed packages along with the used versions.
 
 ## Files in this repository
 
 * COVID-Analysis.ipynb: Simple notebook to get an overview over the data
 * web_app/
   * corona_dashboard.py: Main file that starts the web app
+  * wrangling_scipts/
+
+
+```
+project
+│   README.md
+│   file001.txt    
+│
+└───folder1
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│   
+└───folder2
+    │   file021.txt
+    │   file022.txt
+```
