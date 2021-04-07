@@ -2,42 +2,16 @@ import pandas as pd
 import plotly.graph_objs as go
 
 
-def cleandata(dataset):
-    """Clean world bank data for a visualizaiton dashboard
-
-    Keeps data range of dates in keep_columns variable and data for the top 10 economies
-    Reorients the columns into a year, country and value
-    Saves the results to a csv file
-
-    Args:
-        dataset (str): name of the csv data file
-
-    Returns:
-        None
-
-    """
-    df = pd.read_csv(dataset, delimiter=',')
-
-    df['Positiv getestet'] = pd.to_numeric(df['Positiv getestet'], errors='coerce')
-    df['Anzahl Testungen'] = pd.to_numeric(df['Anzahl Testungen'], errors='coerce')
-
-    # output clean csv file
-    return df
-
-
 def return_figures():
-    """Creates four plotly visualizations
+    """Creates plotly visualizations
 
     Args:
         None
 
     Returns:
-        list (dict): list containing the four plotly visualizations
+        list (dict): list containing the plotly visualizations
 
     """
-
-    # first chart plots arable land from 1990 to 2015 in top 10 economies
-    # as a line chart
 
     graph_one = []
     df = pd.read_csv("data/corona_numbers_world.csv", delimiter=',')
@@ -69,7 +43,7 @@ def return_figures():
                       yaxis=dict(title='Number of tests/positives'),
                       )
 
-    # Plot different countries
+    # Same plot for Sweden
     graph_two = []
 
     x_sweden = df[df.country == "Sweden"].year_week
@@ -96,7 +70,7 @@ def return_figures():
     layout_two = dict(title='<b>Sweden:</b> Number of Tests vs. Positives',
                       xaxis=dict(title='Weeks',
                                  autotick=False, dtick=15),
-                      yaxis=dict(title='Number of positive tests'),
+                      yaxis=dict(title='Number of tests/positives'),
                       )
 
     # Comparing Germany and Sweden - Number of positives
