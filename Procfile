@@ -1,1 +1,1 @@
-web gunicorn covid-19-data-comparison:app
+web gunicorn corona_dashboard:app
