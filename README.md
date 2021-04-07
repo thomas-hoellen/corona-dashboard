@@ -31,6 +31,6 @@ For full detail you can checkout the heroku-deplyment branch and see the require
    * [corona_dashboard/](./web_app/corona_dashboard)
      * [routes.py](./web_app/corona_dashboard/routes.py): Main file in the backend of WebApp
      * [__init__.py](./web_app/corona_dashboard/__init__.py): Init file needed for the App
-     * [templates/](./web_app/corona_dashboard/templates): Contains index.html that defines front end of the App
+     * [templates/](./web_app/corona_dashboard/templates): Contains [index.html](./web_app/corona_dashboard/templates/index.html) that defines front end of the App
      * [static/](./web_app/corona_dashboard/static): Contains images used in the WebApp
 
