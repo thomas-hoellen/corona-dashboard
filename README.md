@@ -1,6 +1,7 @@
 # corona-dashboard
 Analysis of COVID-19 data with visualizations that are shown in a WebApp.
-Checkout the WebApp directly by following this [link](https://covid-19-data-comparison.herokuapp.com/). 
+Checkout the WebApp directly by following this [link](https://covid-19-data-comparison.herokuapp.com/).
+The app is deployed using [heroku](https://www.heroku.com)
 
 The data is taken from the European Centre for Disease Prevention and Control. Use this [link](https://www.ecdc.europa.eu/en/covid-19/data) to get there. 
 
