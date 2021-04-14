@@ -7,7 +7,7 @@ The app is deployed using [heroku](https://www.heroku.com).
 The data is taken from the European Centre for Disease Prevention and Control. Use this [link](https://www.ecdc.europa.eu/en/covid-19/data) to get there. 
 
 ## Get a first glimpse at the data
-You can also get a first impression of the data without using the WebApp. Clone the repository or just download the data folder and COVID-Analysis.ipynb. This jupyter notebook gives you a first overview over the data with some simple visualizations. If you don't know how to use jupyter notebook check out their website [here](https://jupyter.org/).
+You can also get a first impression of the data without using the WebApp. Clone the repository or just download the data folder and COVID-Analysis.ipynb. This jupyter notebook gives you a first overview over the data with some simple visualizations. If you don't know how to use jupyter notebooks check out their website [here](https://jupyter.org/).
 
 ## How to use the WebApp manually
 If you don't just want to look at the WebApp but also want to know it is programmed you need to clone the repo on the main branch. 
